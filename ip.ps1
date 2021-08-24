@@ -4,5 +4,4 @@ while ($true)
     (Invoke-RestMethod 'https://api.ipify.org?format=json').ip >> ip.log;
     (Invoke-RestMethod 'ipinfo.io/json').IP >> ip.log;
     sleep 600
-	exit 0
 }
